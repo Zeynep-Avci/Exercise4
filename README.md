@@ -1,3 +1,5 @@
+Link: https://github.com/Zeynep-Avci/Exercise4.git
+
 # NewsreaderStarterExercise4
 
 ## Important!
