@@ -23,7 +23,7 @@ public class SequentialDownloader extends Downloader {
             }
         }
         long endSeq = System.currentTimeMillis();
-        System.out.println("Download time for sequential: " + ((endSeq - startSeq) / 1000) + "seconds");
+        System.out.println("Download time for sequential: " + ((endSeq - startSeq)) + " milliseconds");
         return count;
     }
 }

@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 public class Controller {
 
-	public static final String APIKEY = "0038b5ccc1124e94b01d19b0d5982697";  //0038b5ccc1124e94b01d19b0d5982697
+	public static final String APIKEY = "428ce1e3cf64410ebde5dcd05cd4d3e9";  //0038b5ccc1124e94b01d19b0d5982697
 
 	private List<Article> articles = null;
 
@@ -92,8 +92,8 @@ public class Controller {
 	}
 
 
+	//method to collect all URls in a list
 	public List urlList;
-	//method to collect all URLs in a list
 	public List<String> getUrl(List<Article> urlList) throws NewsAPIException {
 		if (articles == null)
 			throw new NewsAPIException("Load data first");
@@ -106,6 +106,9 @@ public class Controller {
 
 	public void getDownloadLastSearch(Downloader downloader) throws NewsAPIException {
 		System.out.println("Download last search: ");
-		downloader.process(getUrl(urlList));
+		downloader.process(urlList);
+
+
 	}
+
 }

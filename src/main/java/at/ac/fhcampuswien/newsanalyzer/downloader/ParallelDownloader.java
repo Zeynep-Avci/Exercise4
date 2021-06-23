@@ -24,7 +24,7 @@ public class ParallelDownloader extends Downloader {
             }
         }
         long endPar = System.currentTimeMillis();
-        System.out.println("Download time for sequential: " + ((endPar - startPar) / 1000) + "seconds");
+        System.out.println("Download time for parallel: " + ((endPar - startPar)) + " milliseconds");
         //shutdown threads
         executer.shutdown();
         return count;
