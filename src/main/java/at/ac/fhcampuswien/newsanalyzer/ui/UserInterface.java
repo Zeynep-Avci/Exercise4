@@ -223,9 +223,9 @@ public class UserInterface {
 
 	public void getDownloadLastSearch() {
 		try {
-			System.out.println("ParallelDownloader result: " + parallelDownload);
+			System.out.println("ParallelDownloader result: ");
 			ctrl.getDownloadLastSearch(parallelDownload);
-			System.out.println("SequentialDownloader result: " + sequentialDownload);
+			System.out.println("SequentialDownloader result: ");
 			ctrl.getDownloadLastSearch(sequentialDownload);
 
 		} catch (NewsAPIException e) {
