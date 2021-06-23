@@ -1,4 +1,5 @@
 Link: https://github.com/Zeynep-Avci/Exercise4.git
+//worked with colleagues Nur Sarhan, Greta Berdynaj
 
 # NewsreaderStarterExercise4
 
